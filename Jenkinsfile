@@ -18,5 +18,11 @@ pipeline {
                 echo 'This is deploy'
             }
         }
+
+        stage('Verify') {
+            steps {
+                echo 'This is verify'
+            }
+        }
     }
 }
